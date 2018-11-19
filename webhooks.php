@@ -16,7 +16,7 @@ if (!is_null($events['events'])) {
 		// Reply only when message sent is in 'text' format
 		if ($event['type'] == 'message' && $event['message']['type'] == 'text') {
 			// Get text sent
-			$text = "Hello\nWorld";
+			$text = "หัวข้อนัดหมาย: รายงานผลตรวจร่างกาย\nชื่อสัตว์เลี้ยง: มะยม\nชื่อสัตวแพทย์: บิ๊ก\nกำหนดการนัดหมาย: วันที่ 28 พฤศจิกายน 2561 เวลา 17:00-18:00 น.";
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 
