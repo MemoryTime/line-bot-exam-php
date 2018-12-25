@@ -19,7 +19,7 @@ if (!is_null($events['events'])) {
 			$text = $event['source']['userId'];
 			/*$text = "หัวข้อนัดหมาย: \nรายงานผลตรวจร่างกาย\n\nชื่อสัตว์เลี้ยง: \nมะยม\n\nชื่อสัตวแพทย์: \nบิ๊ก\n\nกำหนดการนัดหมาย: \nวันที่ 28 พฤศจิกายน 2561\nเวลา 17:00-18:00 น.";*/
 			// Get replyToken
-			$replyToken = "Uffa6b3fef1c10f8eaaf947188a01b687";
+			$replyToken = $event['replyToken'];
 
 			// Build message to reply back
 			$messages = [
